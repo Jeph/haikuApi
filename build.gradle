@@ -47,6 +47,8 @@ dependencies {
     compile("org.jetbrains.kotlin:kotlin-reflect")
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-starter')
+    compile('org.junit.jupiter:junit-jupiter-api:5.1.0')
+    compile('org.junit.jupiter:junit-jupiter-engine:5.1.0')
     compile group: 'org.postgresql', name: 'postgresql', version: '42.2.4'
     compile group: 'org.springframework', name: 'spring-jdbc'
     compile group: 'org.flywaydb', name: 'flyway-core', version: '5.1.3'
