@@ -8,7 +8,7 @@ import java.net.URI
 @RestController
 class HaikuController {
 
-    @PostMapping("/createHaiku")
+    @PostMapping("createHaiku")
     fun createHaiku(
             @RequestBody body: String
     ): ResponseEntity<String> {
@@ -19,7 +19,7 @@ class HaikuController {
         return ResponseEntity.created(URI.create("")).build()
     }
 
-    @GetMapping("/haikus")
+    @GetMapping("haikus")
     fun getHaikus() {
 
 
